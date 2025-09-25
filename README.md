@@ -44,7 +44,7 @@ It’s a simple web application that integrates APIs to display **real-time weat
 
 ```
 ├── index.html      # Main HTML structure
-├── style.css       # Styling (not included in upload, add your styles here)
+├── style.css       # Styling 
 ├── app.js          # API integration and app logic
 └── README.md       # Project documentation
 ```
@@ -55,19 +55,15 @@ It’s a simple web application that integrates APIs to display **real-time weat
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/codtech-task1-api-integration.git
-   cd codtech-task1-api-integration
+   git clone https://github.com/Mrinal-101/API-INTEGRATION.git
+    cd API-INTEGRATION
+
    ```
 2. Open `index.html` in your browser.  
 3. Enter a city name to view weather details and read motivational quotes.  
 
 ---
 
-## 📸 Screenshots  
-
-*(Add screenshots of your dashboard UI here once available.)*  
-
----
 
 ## 📌 Internship Context  
 
@@ -76,17 +72,11 @@ It demonstrates **API integration skills**, handling **user input**, and renderi
 
 ---
 
-## ✨ Future Improvements  
 
-- Add **user authentication** and personalized dashboards.  
-- Allow users to **save favorite cities**.  
-- Expand quote collection using a live **Quotes API**.  
-- Improve responsive design with advanced CSS frameworks.  
+## 📸 Screenshots  
+
+
 
 ---
 
-## 👨‍💻 Author  
 
-- **Your Name**  
-- Codtech Full Stack Development Intern  
-- [Your LinkedIn/GitHub Profile link]  
