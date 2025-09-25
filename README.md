@@ -75,7 +75,7 @@ It demonstrates **API integration skills**, handling **user input**, and renderi
 
 ## 📸 Screenshots  
 
-
+<img width="1896" height="864" alt="Image" src="https://github.com/user-attachments/assets/66f62a37-5da0-44cc-b623-f26e105cf680" />
 
 ---
 
