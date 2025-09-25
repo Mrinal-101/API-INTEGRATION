@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather & Quotes Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="app-title">Weather & Quotes</h1>
+        </div>
+    </header>
+
+    <!-- Main Dashboard -->
+    <main class="main">
+        <div class="container">
+            <!-- Location Search -->
+            <section class="search-section">
+                <form class="search-form" id="search-form">
+                    <input 
+                        type="text" 
+                        id="city-input" 
+                        class="form-control search-input" 
+                        placeholder="Enter city name..."
+                    >
+                    <button type="submit" class="btn btn--primary">Search</button>
+                </form>
+            </section>
+
+            <!-- Dashboard Grid -->
+            <div class="dashboard-grid">
+                <!-- Weather Card -->
+                <section class="weather-section card">
+                    <div class="card-header">
+                        <h2 class="card-title">Weather</h2>
+                    </div>
+                    <div id="weather">
+                        <div class="loading">Loading weather...</div>
+                    </div>
+                </section>
+
+                <!-- Quotes Card -->
+                <section class="quotes-section card">
+                    <div class="card-header">
+                        <h2 class="card-title">Daily Quote</h2>
+                    </div>
+                    <div id="quote">
+                        <div class="loading">Loading quote...</div>
+                    </div>
+                    <div class="quote-actions">
+                        <button id="new-quote" class="btn btn--secondary">New Quote</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
